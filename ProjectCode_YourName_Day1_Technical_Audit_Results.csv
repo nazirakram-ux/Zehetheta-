@@ -1,0 +1,18 @@
+Category,Metric / Checkpoint,Audited Value,Rating Agency / Regulatory Use Case
+Row Count Verification,Auto Loan Pool Tape Rows (Master Ledger),500,Onboarding & Portfolio Integrity Baseline
+Row Count Verification,DPD Snapshot History Rows (Time-Series Log),"6,000",Month-over-Month Roll Rate Transition Modeling
+Row Count Verification,Dynamic Loss Monthly Rows (Pool Summaries),12,Monthly Trust Performance Tracking (MDR/SMM/CPR)
+Row Count Verification,Static Pool Vintage Rows (Cohort Ledger),375,Pure Credit Risk Tracking via Fixed Vintage Cohorts
+Key & Relationship Integrity,Unique Master Loan Identifiers (Primary Key),500,Granular Loan-Level Data Tape De-duplication
+Key & Relationship Integrity,Unique Snapshot Child Record Links (Foreign Key),500,Time-Series Performance Tracking & Snapshot Joins
+Key & Relationship Integrity,Orphan Records Identified (Data Leakage Check),0 (PASSED),Referential Integrity Verification (Automatic Disqualifier Check)
+Control Total Validation,Total Current Balance (Active Master Loan Tape Inventory),"INR 317,785,202.14",Point-in-Time Credit Committee Risk Aggregation
+Control Total Validation,Total Current Balance (Snapshot History on 2024-10-30),"INR 361,469,043.03",Historical Ledger Reconciliation Checkpoint
+Control Total Validation,Dynamic Loss File Closing Pool Balance (EOP Balance),"INR 470,149,504.89",Trustee Closing Balance Reconciliation
+Control Total Validation,Dynamic Loss File Closing Active Loan Volume (EOP Loan Count),465,Active Asset Pool Size Amortization Tracking
+Baseline Pool Metrics,Total Original Pool Face Value (Inception Principal),"INR 546,073,700.00","Pool Structuring, Subordination & Scaling Baseline"
+Baseline Pool Metrics,Total Current Portfolio Outstanding Balance,"INR 317,785,202.14",Dynamic Exposure at Default (EAD) Framework Input
+Baseline Pool Metrics,Weighted Average Coupon (WAC),10.95%,Excess Spread Optimization & Investor Coupon Coverage
+Baseline Pool Metrics,Weighted Average Remaining Maturity (WAM),45.14 Months,Cash Flow Duration & Portfolio WAL Modeling
+Baseline Pool Metrics,Weighted Average Loan Age / Seasoning (WALA),16.76 Months,Pool Performance Credit & Curve Seasoning Benchmarks
+Baseline Pool Metrics,Weighted Average Current Loan-to-Value (LTV) Ratio,67.54%,S&P LEVELS Model Recovery Rate Band Calibration
